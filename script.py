@@ -1,6 +1,4 @@
-import math
 import sys
-from os import rename
 
 import requests
 
@@ -8,10 +6,10 @@ import requests
 print(sys.executable)
 
 
-def greet(who_to_greet):
-    test = "Test"
-    greeting = f"hello {who_to_greet}"
-    return greeting
+# def greet(who_to_greet):
+#     test = "Test"
+#     greeting = f"hello {who_to_greet}"
+#     return greeting
 
 
 r = requests.get("http://ya.ru")
